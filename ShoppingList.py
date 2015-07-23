@@ -1,9 +1,6 @@
-# CSC 280 Programming Practice #06                                                       # 
-# modifier: Nadia Barbosa                                                                #
-# date last modified: 04/18/14                                                           #
 #----------------------------------------------------------------------------------------
 # FUNCTION 01 - ShoppingList
-#   Action: Creates a list from a user's repeated input. Listt breaks when nothing is entered.
+#   Action: Creates a list from a user's repeated input. List ends when nothing is entered.
 #   Input: Text strings from user
 #   Output: List of strings
 
@@ -17,7 +14,7 @@ def ShoppingList():
     return list1
 #-------------------------------------------------------------
 # FUNCTION 02 - SortShoppingList
-#   Action: Sorts the user's list in alphabetical order using a Bubble Sort
+#   Action: Sorts the user's list in alphabetical order using a bubble sort
 #   Input: A list
 #   Output: A sorted list in alphabetical order
 def SortShoppingList(ShoppingList):
